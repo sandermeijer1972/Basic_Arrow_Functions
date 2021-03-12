@@ -6,16 +6,18 @@ const ikRockArrowFunctions = function () {
 
 const ikRockArrowFunctions2 = () => console.log("Yeah, ik rock de arrow functions!");
 
- console.log("A"); 
+console.log("A"); 
 ikRockArrowFunctions();
 ikRockArrowFunctions2();
 
 // B
-const fivePlusSeven = function () {
-  return 5 + 7
-};
+function fivePlusSeven() {
+  return 5 + 7;
+}
 
-const fivePlusSeven2 = () => 5 + 7;
+function fivePlusSeven2() {
+  return 5 + 7;
+}
 
 fivePlusSeven();
 fivePlusSeven2();
