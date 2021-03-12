@@ -31,14 +31,18 @@ console.log(myFunction(2,3));
 console.log(myFunction(5,8));
 
 // D
-const addFive = (a) => a + 5;
+const addFive = a => a + 5;
 
 console.log("D");
 console.log(addFive(3));
 console.log(addFive(93));
 
 // E
-const createObject = () => ({greeting : "Hoi"});
+const createObject = () => ({value: "Hoi"});
+
+console.log("E");
+console.log(createObject());
+
 
 
 
